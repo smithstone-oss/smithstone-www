@@ -1,3 +1,24 @@
-name: Your New Jekyll Site
+name: Smithstone Solutions
 markdown: redcarpet
 pygments: true
+permalink: pretty
+relative_permalinks: true
+
+github_username: ssmithstone
+twitter_username: ssmithstone
+contact_email: stephen@smithstone.co.uk
+
+exclude: [www-smithstone.iml,
+  www-smithstone.ipr, www-smithstone.iws,
+  atlassian-ide-plugin.xml
+  ]
+
+sass:
+    style:  expanded  # nested|expanded|compact|compressed
+    deploy_style: compressed  # nested|expanded|compact|compressed
+    # "deploy_style:" is used only for building the site
+    # (ie: not using the --watch flag)
+
+    compile_in_place: false   # true|false
+    # If true, compiles sass directly into your jekyll source directory
+    # As well as your destination directory
