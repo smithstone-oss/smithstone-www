@@ -125,6 +125,7 @@ We now have a running vm inside of virtual box configured using vagrant and the 
 Have fun messing around creating classes, resources, packages.
 
 #### Resources
+* [Example Setup Code](https://github.com/smithstone-oss/devops-vagrant-puppet)
 * [Puppet](http://puppetlabs.com)
 * [Vagrant](http://vagrantup.com)
 * [PuppetForge](https://forge.puppetlabs.com/)
